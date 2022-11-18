@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+
+  </head>
+
+<body>
+gbcgh
+
+
+  <div class="playbtn">
+    <button type="button" class="play-btn" onclick=Play(); id="bnt_play" value="0"></button>
+</div>
+
+  <div class="outer_border">
+    
+    
+        <div class="row">
+
+          <div class="col">
+            <button type="button" class=""  style="border-color:#727272;border-width:3px;border-style:solid;" id="bnt_1">1</button>
+          </div>
+
+          <div class="col">
+            <button type="button" class="" style="border-color:#727272;border-width:3px;border-style:solid;" id="bnt_2">2</button>
+          </div>
+
+          <div class="col">
+            <button type="button" class="" style="border-color:#727272;border-width:3px;border-style:solid;" id="bnt_3">3</button>
+          </div>
+
+          <div class="col">
+            <button type="button" class="" style="border-color:#727272;border-width:3px;border-style:solid;" id="bnt_4">4</button>
+          </div>
+
+        </div>
+    
+
+    
+        <div class="row">
+
+          <div class="col">
+            <button type="button" class="" style="border-color:#727272;border-width:3px;border-style:solid;" id="bnt_5">5</button>
+          </div>
+
+          <div class="col">
+            <button type="button" class="" style="border-color:#727272;border-width:3px;border-style:solid;" id="bnt_6">6</button>
+          </div>
+
+          <div class="col">
+            <button type="button" class="" style="border-color:#727272;border-width:3px;border-style:solid;" id="bnt_7">7</button>
+          </div>
+
+          <div class="col">
+            <button type="button" class="" style="border-color:#727272;border-width:3px;border-style:solid;" id="bnt_8">8</button>
+          </div>
+
+        </div>
+    
+
+    
+        <div class="row">
+
+          <div class="col">
+            <button type="button" class="" style="border-color:#727272;border-width:3px;border-style:solid;" id="bnt_9">9</button>
+          </div>
+
+          <div class="col">
+            <button type="button" class="" style="border-color:#727272;border-width:3px;border-style:solid;" id="bnt_10">10</button>
+          </div>
+
+          <div class="col">
+            <button type="button" class="" style="border-color:#727272;border-width:3px;border-style:solid;" id="bnt_11">11</button>
+          </div>
+
+          <div class="col">
+            <button type="button" class="" style="border-color:#727272;border-width:3px;border-style:solid;" id="bnt_12">12</button>
+          </div>
+
+        </div>
+    
+
+    
+  </div>
+<!--play.js-->
+    <script type="text/javascript" src="js/play.js"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+
+<!---------------------------------------------------跑數據ＵＩ區-------------------------------------------------------->
+<div class="warp">
+    <div class="skill">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" id="h1" :style="{'--offset':h1}" />
+      </svg>
+      <div class="outer">
+          <div class="inner">
+            <div class="number" id="number">
+                
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="text">
+      <h1>分數</h1>
+    </div>
+    
+    
+    
+    
+    <div class="skill">
+    
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor2">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" id="h2" :style="{'--offset':h2}" />
+      </svg>
+      <div class="outer">
+          <div class="inner">
+            <div class="number" id="number2">
+                
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="text">
+      <h1>反應力</h1>
+    </div>
+    
+    
+    
+    
+    <div class="skill">
+    
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor3">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" id="h3" :style="{'--offset':h3}" />
+      </svg>
+      <div class="outer">
+          <div class="inner">
+            <div class="number" id="number3">
+                
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="text">
+      <h1>色彩辨識</h1>
+    </div>
+</div>    
+    
+  <!--data_analysis.js-->
+  <script type="text/javascript" src="js/data_analysis.js"></script>
+
+</body>
+</html>
